@@ -1,0 +1,71 @@
+body {  
+  background-color: rgb(32, 28, 28);
+  /* text-align: center; */
+  /* color: aliceblue; */
+  display: flex;
+  justify-content: center;
+
+}
+
+.myApp {
+  /* text-align: center; */
+  /* color: aliceblue; */
+  align-items: center;
+  
+  
+}
+
+.columnList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.myApp {
+  background-color: white;
+  position: static;
+}
+
+header {
+  height: 50px;
+  width: 100vw;
+  
+  background-color: rgba(57, 136, 255, 0.767);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h2 {
+    display: flex;
+    margin-right: 100px;
+    justify-content: flex-end;
+
+  
+}
+
+p {
+  /* margin-left: 200px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  align-items: center;
+}
+.header1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: static;
+}
+.buttons {
+  position: static;
+}
+span {
+  text-decoration: underline;
+}
